@@ -1,0 +1,5 @@
+encryptionsalt: v1:AVB8xbGvcuU=:v1:YzLh9TZOJbQQoVK9:8t2valTjTRlT73htY1vsCv2Y3JbH4Q==
+config:
+  aws:accessKey: test
+  aws:secretKey: test
+  aws:region: us-east-1

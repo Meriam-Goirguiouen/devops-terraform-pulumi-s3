@@ -1,0 +1,11 @@
+name: pulumi_Bucket_s3
+description: Création d'un bucket s3 dans Localstack avec Pulumi
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
