@@ -6,7 +6,7 @@ Ce projet est un petit **projet DevOps personnel** visant à expérimenter et co
 - **Terraform** (approche déclarative)
 - **Pulumi** (approche programmatique)
 
-L'objectif est de créer un **bucket S3** en utilisant **LocalStack** comme environnement cloud simulé en local, et de comprendre les différences de syntaxe, de philosophie et d'usage entre ces deux outils.
+L'objectif est de créer un **bucket S3** en utilisant **LocalStack** comme environnement cloud simulé en local, et de comprendre les différences de syntaxe et d'usage entre ces deux outils.
 
 ---
 
@@ -28,12 +28,13 @@ localstack-project/
 │   ├── main.tf
 │   ├── terraform.tfstate
 │   └── README.md
-├── pulumi-s3/        # Infrastructure S3 avec Pulumi (à venir)
-│   ├── __init__.py 
+├── pulumi-s3/        # Infrastructure S3 avec Pulumi
+│   ├── __main__.py 
 │   └── Pulumi.yaml
+    └── Pulumi.dev.yaml
 └── README.md
 
 ## Avancement du projet :
 
 - [x] Création d'un bucket S3 avec Terraform sur LocalStack
-- [ ] Création d'un bucket S3 avec Pulumi sur LocalStack
+- [x] Création d'un bucket S3 avec Pulumi sur LocalStack
